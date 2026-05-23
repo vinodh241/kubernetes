@@ -9,6 +9,7 @@ metadata:
     environment: dev
   annotations:
     description: "This pod is used for annotations"
+    Azure_Pipeline: "https://Azure.services.digiGst/DigiGST_UI/app-release/33456/"
 spec:
   containers:
   - name: nginx
