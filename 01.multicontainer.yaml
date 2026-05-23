@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: digiapp
+  labeles:
+    purpose: demo
+spec: 
+  containers: 
+  - name: nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9 
