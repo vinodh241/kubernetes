@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: annotations
+  labeles: 
+    project: digiapp
+    component: mysql
+    tier: backend
+    environment: dev
+  annotations:
+    description: "This pod is used for annotations"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
